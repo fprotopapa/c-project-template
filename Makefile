@@ -1,4 +1,4 @@
-TARGET_NAME ?= server
+TARGET_NAME ?= main
 CC ?= gcc
 BUILD ?= build
 DEBUG ?= 1
