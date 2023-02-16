@@ -25,3 +25,16 @@ make clean
 # Remove all
 make clean_all
 ```
+
+## Scripts
+
+```
+# Depends on Ctags and Cscope
+sudo apt install cscope exuberant-ctags
+
+# Generate Tags
+. ./scripts/gentags
+
+# Source Cscope DB in New Terminal
+. ./scripts/sourcetags
+```
